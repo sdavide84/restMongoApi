@@ -8,14 +8,14 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bbtutorials</groupId>
-	<artifactId>echo</artifactId>
+	<groupId>it.davide</groupId>
+	<artifactId>mongoApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>echo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>mongoApi</name>
+	<description>mongoApi project with Spring Boot</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>1.11</java.version>
 	</properties>
 
 	<dependencies>
@@ -58,7 +58,7 @@
 			                <goal>repackage</goal>
 			            </goals>
 			            <configuration>
-			                <mainClass>com.bbtutorials.echo.EchoApplication</mainClass>
+			                <mainClass>it.davide.configuration.EchoApplication</mainClass>
 			                <outputDirectory>${project.basedir}/docker</outputDirectory>
 			            </configuration>
 			        </execution>

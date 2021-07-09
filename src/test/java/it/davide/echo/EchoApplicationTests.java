@@ -1,4 +1,4 @@
-package com.bbtutorials.echo;
+package it.davide.echo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
